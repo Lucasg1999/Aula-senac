@@ -30,7 +30,11 @@ int resp = 5;
             System.out.printf(" %d = ", ListNum[3]);
             System.out.printf(" %d ", resp);
         }
-
+        if(ListNum[1] + ListNum[2] == resp){
+            System.out.printf(" %d + ", ListNum[1]);
+            System.out.printf(" %d = ", ListNum[2]);
+            System.out.printf(" %d ",  resp);
+        } 
      else {
              System.out.print("Resposta errada");
              }
